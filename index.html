@@ -1,1 +1,164 @@
-<!-- Start writing your project code in this file! -->
+<!DOCTYPE html>
+
+<head>
+    
+    <title>Felicia's Skating Website</title>
+
+    <style>
+
+        body {
+            background-color: #E3B9BC; 
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #E3B9BC;
+            padding: 20px 40px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly; 
+            z-index: 1000;
+            border-bottom: 2px solid black;
+        }
+
+        header a, .Title {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 35px;
+        }
+
+        header a:hover {
+            color: #D1ABAD; 
+        }
+
+        .Title {
+            font-size: 65px;
+        }
+
+        main {
+            margin-top: 150px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .Intro {
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 50px; 
+            padding: 50px;
+        }
+
+        .text-content {
+            flex: 1;
+        }
+   
+        .image-content {
+            flex: 1;
+            height: 100%; 
+        }
+
+        .image-content img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .solid-color-section {
+            background-color: #5E5E5E; 
+            padding: 80px 20px; 
+            color: white;
+            text-align: center;
+            width: 100%; 
+            box-sizing: border-box; 
+            margin: 0; 
+        }
+
+        .section-text h2 {
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        .section-text p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .gallery-section {
+            display: flex;         
+            justify-content: center; 
+            align-items: center;    
+            gap: 20px;             
+            padding: 50px 20px;     
+            background-color: #E3B9BC; 
+            flex-wrap: wrap;        
+        }
+
+        .gallery-section img {
+            width: 250px; 
+            height: 250px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="aboutme.html">About</a>
+    <a href="contact.html">Contact</a>
+    <div class="Title">iSKATER</div>
+    <a href="tutorials.html">Tutorials</a>
+    <a href="checklist.html">Checklist</a>
+</header>
+
+<main>
+    <section class="Intro">
+        <div class="text-content">
+            <h2>Welcome to iSKATER!</h2>
+            <p>I'm Felicia, and skating is my passion. Welcome to my site where I share my skating journey and tips for beginners!</p>
+        </div>
+        
+        <div class="image-content">
+            <img src="meskating.jpeg" alt="Felicia skating" />
+        </div>
+    </section>
+
+</main>
+
+    <section class="solid-color-section">
+       <div class="section-text">
+          <h2>Veiwer comments</h2>
+          <p>It's never too late to start learning Figure skating!</p>
+       </div>
+    </section>
+
+    <section class="gallery-section">
+        <img src="meskating.jpeg" >
+        <img src="skatingbff.jpeg" >
+        <img src="figureskatingpic.jpeg" >
+        <img src="felicia.jpeg" >
+        <img src="dress.jpeg" >
+    </section>
+
+    <section class="solid-color-section">
+        <div class="section-text">
+           <h2>Socials</h2>
+           <p>Check out my other social channels!</p>
+        </div>
+     </section>
+    
+
+</body>
+</html>
