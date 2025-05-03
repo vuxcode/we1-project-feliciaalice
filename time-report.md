@@ -10,3 +10,8 @@ spent the 1.5 hour lesson in school designing a button & starting on my contact 
 2025 - 2th may
 I spent 4 hours today creating a logo for my website, adding a few small things to the main page (a new social media icon, change some paddings & margins & adding my logo). I also worked more on my contact form that is coming together nicely. I also love the new look when I added the logo and better spacing on the websites main page, since it looks less empty now! :)
 
+2025 - 3th may
+Spent 1 hour today creating a checklist to my webpage. 
+
+
+
