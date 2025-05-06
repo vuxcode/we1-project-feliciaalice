@@ -44,11 +44,15 @@
 
         main {
             margin-top: 100px;
-            padding: 10px;
             text-align: center;
         }
 
         .intro {
+            background-image: url('figureskatingpic.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px; 
+            color: #fff; 
             display: flex; 
             align-items: center; 
             justify-content: center; 
@@ -57,7 +61,23 @@
         }
 
         .text-content {
+            display: flex;
+            max-width: 1000px;
+            margin: 0 auto;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
             flex: 1;
+        }
+
+        .about-content img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%; 
+            margin-right: 20px;
+            flex-shrink: 0; 
         }
    
         .image-content {
@@ -176,6 +196,7 @@
 
     <section class="solid-color-section">
         <div class="section-text">
+          <img src="iSKATER-logo-grey.jpg" alt="iSKATER logo" style="width:150px;height:150px;"> 
            <h2>Socials</h2>
            <p>Check out my other social media channels!</p>
            <a href="default.asp"><img src="tiktoklogo.png" alt="Tiktok icon" style="width:42px;height:42px;"></a>
