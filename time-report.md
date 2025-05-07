@@ -13,5 +13,10 @@ I spent 4 hours today creating a logo for my website, adding a few small things 
 2025 - 3th may
 Spent 1 hour today creating a checklist to my webpage. 
 
+2025 - 6th & 7th may
+Spent about 7 hours to design a new look to the main page + created an "about" page, + some other small changes.
+
+
+
 
 
