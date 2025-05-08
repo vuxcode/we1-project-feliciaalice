@@ -6,4 +6,6 @@
 
 2. Needed to change the website name letters to all lowercase. The images I'm using in my website right now is not available for everyone, so I need to find a solution for this. My solution:
 
-3. 
+3. I didn't like the look in the intro section, so I experimented and put the <p> element text within the <h2> element, and figured out that was a solution to have both texts "over eachother". Then I could just change the design, font-size etc in CSS, by adding .text-content h2 {} and .text-content p {}.
+
+4. 
