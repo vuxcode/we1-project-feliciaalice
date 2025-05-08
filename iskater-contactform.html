@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>iSKATER Contact Form</title>
+    <style>
+
+        body {
+            background-color: #E3B9BC;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #E3B9BC;
+            padding: 20px 40px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly; 
+            z-index: 1000;
+            border-bottom: 2px solid black;
+        }
+
+        header a, .Title {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 35px;
+        }
+
+        header a:hover {
+            color: #5E5E5E; 
+        }
+
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            margin-top: 130px;
+            border: solid;
+            border-color: #5E5E5E;
+            border-width: 20px;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.2); 
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        .button-group {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .button-group input[type="submit"],
+        .button-group input[type="reset"] {
+            margin: 0 10px;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #d1a4a7;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto 0;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+
+<header>
+    <div class="Title">CONTACT ME</div>
+</header>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact me if you have any questions etc! xoxo</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required>
+    
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required>
+    
+            <label for="mail">Email address:</label>
+            <input type="email" id="mail" name="mail" required>
+    
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <div class="button-group">
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </div>
+    
+        </fieldset>
+    </form>
+
+    <img src="iSKATER-pink.png" alt="iSKATER logo">
+
+</body>
+</html>

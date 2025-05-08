@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <title>Felicia's Skating Website</title>
+
+    <style>
+
+        body {
+            background-color: #E3B9BC; 
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #E3B9BC;
+            padding: 20px 40px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly; 
+            z-index: 1000;
+            border-bottom: 2px solid black;
+        }
+
+        header a, .Title {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 35px;
+        }
+
+        header a:hover {
+            color: #5E5E5E; 
+        }
+
+        .Title {
+            font-size: 65px;
+        }
+
+        main {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .intro {
+            background-image: url('figureskatingpic.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px; 
+            color: #fff; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 50px; 
+            padding: 40px;
+        }
+
+        .text-content {
+            display: flex;
+            max-width: 1000px;
+            margin: 0 auto;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+        }
+
+        .about-content img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%; 
+            margin-right: 20px;
+            flex-shrink: 0; 
+        }
+   
+        .image-content {
+            flex: 1;
+            height: 100%; 
+        }
+
+        .image-content img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+        }
+
+        .solid-color-section {
+            background-color: #5E5E5E; 
+            padding: 80px 20px; 
+            color: white;
+            text-align: center;
+            width: 100%; 
+            box-sizing: border-box; 
+            margin: 0; 
+        }
+
+        .section-text h2 {
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        .section-text p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .section-text a {
+            padding: 20px;
+        }
+
+        .gallery-section {
+            display: flex;         
+            justify-content: center; 
+            align-items: center;    
+            gap: 20px;             
+            padding: 50px 20px;     
+            background-color: #E3B9BC; 
+            flex-wrap: wrap;        
+        }
+
+        .gallery-section img {
+            width: 250px; 
+            height: 250px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+            box-shadow: 0 10px 10px rgba(0,0,0,0.2); 
+        }
+
+        .intro a {
+            font-size: large;
+            background-color: #E3B9BC;
+            color: black;
+            box-sizing: border-box; 
+            padding: 7px;
+            text-decoration: none;
+            border-radius: 10px;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+            
+        }
+        
+        .intro a:hover {
+            color: #5E5E5E;
+        }
+
+        .slideshow-container {
+            position: relative;
+            background: #5E5E5E;
+        }
+
+        .mySlides {
+            display: none;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -30px;
+            padding: 16px;
+            color: #E3B9BC;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next {
+            position: absolute;
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+            color: white;
+        }
+
+        .dot-container {
+            text-align: center;
+            padding: 25px;
+            background: #5E5E5E;
+        }
+
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+            background-color: #717171;
+        }
+
+        q {font-style: italic;}
+
+        .author {color: #E3B9BC;}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="iskater-about.html">About</a>
+    <a href="iskater-contactform.html">Contact</a>
+    <div class="Title">iSKATER</div>
+    <a href="iskater-tutorials.html">Tutorials</a>
+    <a href="iskater-checklist.html">Checklist</a>
+</header>
+
+<main>
+    <section class="intro">
+        <div class="text-content">
+            <a href="iskater-tutorials.html">Start tutorials now</a>
+            <h2>Welcome to iSKATER!</h2>
+            <p>The website for all figure skating lovers, with beginner tutorials & everything you need to know to start your skating journey!</p>
+        </div>
+        
+        <div class="image-content">
+            <img src="meskating.jpeg" alt="Felicia skating" />
+        </div>
+    </section>
+
+</main>
+
+<section class="slideshow-container">
+    <div class="mySlides">
+        <q>I would really want to start ice skating! Do you have any tips for beginners?</q>
+        <p class="author">- jodiii</p>
+    </div>
+
+    <div class="mySlides">
+        <q>You inspire me so much!</q>
+        <p class="author">- Sophia</p>
+    </div>
+
+    <div class="mySlides">
+        <q>I wanna learn so bad!</q>
+        <p class="author">- Mandi</p>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</section>
+
+    <section class="gallery-section">
+        <img src="meskating.jpeg" >
+        <img src="skatingbff.jpeg" >
+        <img src="figureskatingpic.jpeg" >
+        <img src="felicia.jpeg" >
+        <img src="dress.jpeg" >
+    </section>
+
+    <section class="solid-color-section">
+        <div class="section-text">
+          <img src="iSKATER-logo-grey.jpg" alt="iSKATER logo" style="width:150px;height:150px;"> 
+           <h2>Socials</h2>
+           <p>Check out my other social media channels!</p>
+           <a href="default.asp"><img src="tiktoklogo.png" alt="Tiktok icon" style="width:42px;height:42px;"></a>
+           <a href="default.asp"><img src="5296499_fb_facebook_facebook logo_icon.png" alt="Facebook icon" style="width:42px;height:42px;"></a>
+           <a href="default.asp"><img src="5296503_inspiration_pin_pinned_pinterest_social network_icon (1).png" alt="Pinterest icon" style="width:42px;height:42px;"></a>
+           <a href="default.asp"><img src="5296765_camera_instagram_instagram logo_icon (1).png" alt="Instagram icon" style="width:42px;height:42px;"></a>
+           <a href="default.asp"><img src="5296521_play_video_vlog_youtube_youtube logo_icon.png" alt="Youtube icon" style="width:42px;height:42px;"></a>
+        </div>
+     </section>
+
+<script>
+
+// Javascript for the quote slide 
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+    }
+</script>
+    
+</body>
+</html>
