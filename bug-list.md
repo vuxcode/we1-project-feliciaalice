@@ -4,4 +4,6 @@
 
 1. I wanted to add a quote slide to the main page to my website & found how to create one on W3schools. I tried to add a html & it it didn't show up as expected on the webpage & there was no text. Had to figure out why and then I saw that I had to add some javascript code as well. I added the javascript code too & it made the quote slide exactly how I wanted it to be.
 
-2. 
+2. Needed to change the website name letters to all lowercase. The images I'm using in my website right now is not available for everyone, so I need to find a solution for this. My solution:
+
+3. 
