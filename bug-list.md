@@ -10,4 +10,4 @@
 
 4. I wanted to change the background picture on my contact-form & it didn't work out until I added my whole <form> into a <section>. When I did it looked right.
 
-5. 
+5. I tried to change the background on my Checklist-page & figured out that I had to create a new class, so everything wouldn't get distorted, also since I couldn't use div in the CSS, since I also used a div element in the header. 
