@@ -14,7 +14,9 @@
 
 6. Tried running my website in Lighthouse for the first time & it did not score as high as I wished. So I have a few things I need to correct. 1) Higher contrast in the colors. 2) <meta name="viewport"> tag 3) smaller images and 4) alt attributes on images & a few more small details. My solutions: Changed the color of some quotes for better contrast, added "<meta>" to all pages so they're viewed better on phones & tablets,
 
-7. While creating my "tutorials" page, I want all attributes within my class to be displayed vertically & not horizontally. This is a problem I need to find the solution for. My solution: 
-8. 
+7. While creating my "tutorials" page, I want all attributes within my class to be displayed vertically & not horizontally. This is a problem I need to find the solution for. My solution: I used flex-direction: column; & align-items: center; in the CSS. 
+
+   
+   8. 
 
 9. 
