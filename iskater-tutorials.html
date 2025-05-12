@@ -46,12 +46,14 @@
 
         .tutorials-content {
             display: flex;
-            max-width: 1000px;
+            flex-direction: column; 
+            align-items: center;    
+            max-width: 500px;
             margin: 0 auto;
-            align-items: center;
             background: rgba(0, 0, 0, 0.5);
             padding: 20px;
-            border-radius: 10px;
+            border-radius: 30px;
+            gap: 20px; 
         }
 
         .tutorials {
@@ -72,6 +74,7 @@
             text-decoration: none;
             border-radius: 10px;
             box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+            
         }
 
         .tutorials-content a:hover {
@@ -85,8 +88,6 @@
             margin: 20px auto 0;
         }
 
-
-
     </style>
 </head>
 <body>
@@ -96,15 +97,14 @@
 </header>
 
 <main>
-<section class="tutorials">
-    <div class="tutorials-content">
-            <h2>What do you want to practice today?</h2>
+    <section class="tutorials">
+        <div class="tutorials-content">
+            <h2 style="color: white;">What do you want to practice today?</h2>
             <a href="iskater-tutorials.html">Steps</a>
             <a href="iskater-tutorials.html">Jumps</a>
             <a href="iskater-tutorials.html">Spins</a>
         </div>
-    </div>
-</section>
+    </section>
 </main>
 
 <a href="felicia-iskaterwebsite.html"><img src="https://i.imgur.com/oLwqmQ0.png" alt="iSKATER logo" ></a>
