@@ -22,8 +22,11 @@ Spent 3 hours today working on the design, fonts, colors. Wrote my "About me" te
 2025 - 10th & 11th may
 Spent 4 hours this weekend replacing all image links, updating the design on the website pages with a new background image & new colors. Added href links on some logos & icons. Planning for how I want the tutorial page to look like. 
 
+2025 - 12th & 13th may
+Spent 4 hours improving the websites accessability. Also designed the tutorials page & created new pages for the different tutorials.
 
-26 hours. 
+
+
 
 
 
