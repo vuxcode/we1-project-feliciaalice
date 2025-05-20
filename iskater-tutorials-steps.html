@@ -5,30 +5,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>iSKATER tutorial steps</title>
 
     <style>
-
-        body {
-            background-color: #E3B9BC;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background: #E3B9BC;
-            padding: 20px 40px;
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly; 
-            z-index: 1000;
-            border-bottom: 2px solid black;
-        }
 
         header a, .Title {
             text-decoration: none;
@@ -48,6 +28,37 @@
             margin: 20px auto 0;
         }
 
+        main {
+            background-image: url('https://i.imgur.com/g7Ru84k.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px; 
+            color: #fff; 
+        }
+
+
+        .tutorials {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            max-width: 750px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 30px;
+            gap: 20px; 
+
+        }
+
+        h2 {
+            background-color: #E3B9BC;
+            color: black;
+            border-radius: 20px;
+            border-style: double;
+            border-color: #5E5E5E;
+            border-width: 15px;
+        }
+
         </style>
         </head>
 
@@ -57,6 +68,20 @@
         <div class="Title">Tutorials: Steps</div>
     </header>
 
+    <main>
+        <section class="tutorials">
+        <div class="tutorial-videos"></div>
+        <h2>1. Waltz jump tutorial</h2>
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/1084578219?h=5a1234db05" width="1000" height="1000" frameborder="0"    allowfullscreen></iframe>
+        <h2>2. Salchow tutorial</h2>
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/1084578219?h=5a1234db05" width="1000" height="1000" frameborder="0"    allowfullscreen></iframe>
+        <h2>3. Toe-loop tutorial</h2>
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/1084578219?h=5a1234db05" width="1000" height="1000" frameborder="0"    allowfullscreen></iframe>
+        <h2>4. Flip tutorial</h2>
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/1084578219?h=5a1234db05" width="1000" height="1000" frameborder="0"    allowfullscreen></iframe>
+        </div>
+        </section>
+        </main>
 
     <a href="felicia-iskaterwebsite.html"><img src="https://i.imgur.com/oLwqmQ0.png" alt="iSKATER logo" ></a>
 
