@@ -1,0 +1,20 @@
+        body {
+            background-color: #E3B9BC; 
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #E3B9BC;
+            padding: 20px 40px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly; 
+            z-index: 1000;
+            border-bottom: 2px solid black;
+        }
