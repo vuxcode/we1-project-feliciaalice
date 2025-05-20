@@ -25,6 +25,9 @@ Spent 4 hours this weekend replacing all image links, updating the design on the
 2025 - 12th & 13th may
 Spent 4 hours improving the websites accessability. Also designed the tutorials page & created new pages for the different tutorials.
 
+2025 - 20th may 
+I spent 1h today adding a style.css to all of my pages. 
+
 
 
 
