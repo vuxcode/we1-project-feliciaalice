@@ -17,10 +17,6 @@
 7. While creating my "tutorials" page, I want all attributes within my class to be displayed vertically & not horizontally. This is a problem I need to find the solution for. My solution: I used flex-direction: column; & align-items: center; in the CSS.
 
 8. Tried to create a style.css for all the pages. It did not go as planned at first because it ruined some pages design. Tried again & selected less CSS attributes & this time everything was perfect.
-9. 
 
+9. After the presentation lesson today there was a few things I need to look at. New image links for the social media logos, Update the header on all pages with a menu-bar like the main page & rename a few images in the html code etc. 
 
-   
-   8. 
-
-10. 
