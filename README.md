@@ -14,4 +14,4 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 # Project Summary
 
-> Before the final submission date you should include a "PROJECT SUMMARY" in this section here.
+It was easy for me to decide what I wanted my website to be about. Figure skating is my biggest passion & favorite sport/hobby in life, so building my own figure skating website & seeing my visions come to life has been an amazing & fun journey. Hopefully the iSKATER website can be used by people who share the same intrest as me &/or want to start. So this website is not only a way for me to keep my love for figure skating alive, but also help other people. 
