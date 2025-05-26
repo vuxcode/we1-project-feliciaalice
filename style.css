@@ -18,3 +18,21 @@
             z-index: 1000;
             border-bottom: 2px solid black;
         }
+
+        header a, .Title {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 35px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        header a:hover {
+            color: #5E5E5E; 
+            transform: scale(1.05);
+        }
+
+        .Title {
+            font-size: 65px;
+        }
+
