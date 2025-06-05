@@ -28,6 +28,9 @@ Spent 4 hours improving the websites accessability. Also designed the tutorials 
 2025 - 20th may 
 I spent 1.5h today adding a style.css to all of my pages, and updating my tutorial pages a bit. 
 
+2025 - 26th may
+I spent 2 hours just adding the menu-bar to every page & doing some changes with the style.css, fixing some small errors & finishing the project.  
+
 
 
 
